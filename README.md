@@ -22,7 +22,7 @@ The ModelSim installer is **not** included. Download it from Altera yourself.
 ## Setup
 
 1. **Configure XQuartz:** open it, go to *Settings → Security*, and tick **Allow connections from network clients**. Then log out and back in.
-2. **Build the image:** put the installer next to the `Dockerfile` and run:
+2. **Build the image:** put the installer and the `Dockerfile` to the same folder (ex. ~/Documents/modelsim_docker directory that contains the Dockerfile and the .run file) and run:
    ```bash
    docker build -t modelsim .
    ```
